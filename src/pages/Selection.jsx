@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import PersonForm from "../components/personForm";
+import PersonForm from "../components/PersonForm";
 import { emailRegex } from "../utils/validation";
 import { sendEmails } from "../utils/email";
 import { motion } from 'framer-motion';
